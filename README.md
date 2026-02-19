@@ -16,6 +16,7 @@ Dir's :
 ------main.py
 
 pyinstaller --onefile --windowed --icon=Images/logo.png --add-data="Images/logo.png;Images" 
+
 create LogAnalyzer Folder
 copy dist,build,main.spec to LogAnalyzer
 copy Image folder to LogAnalyzer/dist
