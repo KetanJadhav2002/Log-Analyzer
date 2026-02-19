@@ -31,7 +31,7 @@ class LogAnalyzer(QWidget):
 		self.label.show()
 	
 	def combo_box(self):
-		types = ["Application", "Security", "Setyp", "System"]
+		types = ["Application", "Security", "Setup", "System"]
 		self.combo_box = QComboBox(self)
 		self.combo_box.setGeometry(5, 535, 350, 30)
 		self.combo_box.setStyleSheet("border:1px solid red;color:red;")
@@ -260,3 +260,4 @@ if __name__ == "__main__":
 	gui.filters()
 	gui.show()
 	sys.exit(app.exec_())
+
